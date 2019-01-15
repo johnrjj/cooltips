@@ -9,7 +9,7 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "test": "jest",
-    "prettier": "prettier --single-quote --print-width 100 --trailing-comma es5 --write 'src/**/*.ts'"
+    "prettier": "prettier --single-quote --print-width 100 --trailing-comma es5 --write 'src/**/*.{ts,tsx}'"
   },
   "files": [
     "lib"
@@ -31,7 +31,8 @@
   "jest": {
     "moduleFileExtensions": [
       "js",
-      "ts"
+      "ts",
+      "tsx"
     ],
     "transform": {
       "\\.ts$": "ts-jest"
@@ -39,10 +40,13 @@
     "testRegex": "./src/.*\\.spec\\.ts$"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.116",
+    "@types/lodash.isfunction": "^3.0.4",
     "diff": "^3.5.0",
     "draft-js": "^0.10.5",
     "immutable": "^3.8.2",
     "immutablediff": "^0.4.4",
+    "lodash.isfunction": "^3.0.9",
     "ot": "^0.0.15",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

@@ -1,5 +1,3 @@
 import { X } from './test';
 
-export {
-  X,
-};
+export { X };

@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+// import React from 'react';
 
-class X extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            open: true,
-        }
-    }
-}
+// class X extends React.Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             open: true,
+//         }
+//     }
+// }
 
-export {
-    X,
-};
+// export {
+//     X,
+// };
